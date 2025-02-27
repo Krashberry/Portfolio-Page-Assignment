@@ -2,10 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-family: "Courier New", Courier, monospace;
   background: rgb(238, 174, 202);
   background: radial-gradient(
@@ -13,4 +11,25 @@ body {
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
+}
+nav {
+  display: flex;
+  position: sticky;
+  background-color: rgb(255, 255, 116);
+  top: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: left;
+}
+a {
+  padding: 20px;
+  width: 100px;
+  display: block;
+  text-decoration: none;
+  color: black;
 }
