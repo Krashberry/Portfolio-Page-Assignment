@@ -42,7 +42,7 @@ a {
 img {
   height: 300px;
   width: 300px;
-  border: 50px;
+  border-radius: 150px;
   border-color: white;
 }
 #pg1 {
@@ -52,6 +52,9 @@ img {
   align-content: center;
   height: 700px;
   width: 100%;
+}
+h1 {
+  margin: 50px;
 }
 
 #pg2 {
