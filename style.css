@@ -13,7 +13,8 @@ body {
   );
 }
 nav {
-  display: flex;
+  width: 100%;
+  overflow: hidden;
   position: sticky;
   background-color: rgb(255, 255, 116);
   top: 0;
@@ -32,4 +33,9 @@ a {
   display: block;
   text-decoration: none;
   color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#pg1 {
+  height: 700px;
 }
