@@ -40,22 +40,23 @@ a {
   font-weight: bold;
 }
 img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border: 1.5mm solid black;
-  border-radius: 150px;
-  /* border-color: black; */
+  border-radius: 300px;
+  justify-content: center;
 }
 #pg1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 h1 {
   margin: 25px;
+  margin-top: 100px;
   padding: 20px;
   background: white;
   border: solid black;
@@ -67,7 +68,7 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 .skills {
@@ -79,6 +80,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 1100px;
 }
 .pg2sec2 {
   display: flex;
@@ -86,15 +89,19 @@ h1 {
 }
 .aboutme {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .aboutmebox {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; */
   margin: 25px;
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 500px;
 }
 .resume {
   display: flex;
@@ -107,6 +114,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 500px;
 }
 
 #pg3 {
@@ -114,7 +123,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 .pjbox1 {
@@ -124,6 +133,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 200px;
 }
 .pjbox2 {
   display: flex;
@@ -132,6 +143,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 200px;
 }
 .pjbox3 {
   display: flex;
@@ -140,6 +153,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 200px;
 }
 .pjbox4 {
   display: flex;
@@ -148,6 +163,8 @@ h1 {
   padding: 20px;
   background: white;
   border: solid black;
+  height: 200px;
+  width: 200px;
 }
 
 #pg4 {
@@ -156,7 +173,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 .cmtitle {
