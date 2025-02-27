@@ -117,6 +117,38 @@ h1 {
   height: 700px;
   width: 100%;
 }
+.pjbox1 {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 20px;
+  background: white;
+  border: solid black;
+}
+.pjbox2 {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 20px;
+  background: white;
+  border: solid black;
+}
+.pjbox3 {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 20px;
+  background: white;
+  border: solid black;
+}
+.pjbox4 {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 20px;
+  background: white;
+  border: solid black;
+}
 
 #pg4 {
   display: flex;
