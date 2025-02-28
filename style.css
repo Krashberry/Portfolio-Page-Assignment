@@ -183,8 +183,7 @@ h1 {
 #pg4 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: start;
+  flex-wrap: nowrap;
   align-items: center;
   height: 1000px;
   width: 100%;
@@ -195,10 +194,16 @@ h1 {
   align-content: center;
   margin-top: 50px;
 }
+.contactform {
+  display: flex;
+  flex-direction: column;
+}
 .contact {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: larger;
@@ -226,9 +231,13 @@ h1 {
   padding-bottom: 200px;
 }
 #submitbtn {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: larger;
   background-color: white;
   border: solid black;
+  margin-top: 20px;
 }
